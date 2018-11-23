@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="jars/icu4j-core-mojang-51.2.jar"/>
+	<classpathentry kind="lib" path="jars/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar"/>
+	<classpathentry kind="lib" path="jars/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar"/>
+	<classpathentry kind="lib" path="jars/guava-17.0.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Serialization"/>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-assimp.jar" sourcepath="sources/lwjgl-assimp-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Savage/javadocs/lwjgl-assimp-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-bgfx.jar" sourcepath="sources/lwjgl-bgfx-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Savage/javadocs/lwjgl-bgfx-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-egl.jar" sourcepath="sources/lwjgl-egl-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Savage/javadocs/lwjgl-egl-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-glfw.jar" sourcepath="sources/lwjgl-glfw-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Savage/javadocs/lwjgl-glfw-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-jawt.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-jemalloc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-lmdb.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-nanovg.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-nfd.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-nuklear.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-openal.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-opencl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-opengl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-opengles.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-ovr.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-par.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-sse.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-stb.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-tinyexr.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-tinyfd.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-vulkan.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-xxhash.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl-yoga.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/lwjgl/lwjgl.jar" sourcepath="sources/lwjgl-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Savage/javadocs/lwjgl-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="jars/joml-1.9.1.jar" sourcepath="jars/joml-1.9.1-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Savage/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jars/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
